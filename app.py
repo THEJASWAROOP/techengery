@@ -35,7 +35,7 @@ def predict():
 	print(output)
 	
 	
-	return render_template('main1.html',prediction_text="Your Bike Estimated Cost is : {}".format(output),
+	return render_template('main1.html',prediction_text="Your Bike Estimated Cost is INR : {}".format(output),
 		kilometer="Kilometers : {}".format(int_features[0]),
 		year="Year : {}".format(int_features[1]),
 		brand="Brand : {}".format(int_features[2]),
